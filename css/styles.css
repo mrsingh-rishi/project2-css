@@ -1,0 +1,150 @@
+#aab{
+    font-family: "Montserrat";
+}
+.ml-auto{
+    margin-left: auto;
+}
+#title{
+    background-color: #ff4c68;
+    color: white;
+    
+}
+h1{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-family: "Montserrat";
+}
+#h2id,#h2id2{
+    padding: 30px;
+    line-height: 3rem;
+    font-size: 2.5rem;
+    padding: 1%;
+}
+p{
+    color: grey;
+    font-family: "Montserrat-Bold";
+}
+.container-fluid{
+    padding-bottom: 100px ;
+    padding: 15% 15%;
+}
+#abc{
+    padding: 3% 15%;
+    font-family: "Montserrat";
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    
+}
+#navbrand{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#navbarr{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+.download-btn{
+    margin: 3% 5% 3% 0;
+}
+.download-btn2{
+    margin: 3% 2% 3% 0;
+}
+.imgg{
+    width: 60%;
+    transform: rotate(25deg);
+}
+#features{
+    padding: 7% 15%;
+    background-color: white;
+}
+.feature-box{
+    padding: 4.5%;
+    text-align: center;
+}
+.fas{
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+.fas:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+.carusel-item{
+    padding: 7% 15%;
+}
+#c-i{
+    padding: 7% 15%;
+}
+.test-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    margin: 20px 20px 50px;
+}
+#container {
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: space-between; /* switched from default (flex-start, see below) */
+    background-color: lightyellow;
+  }
+  #container > div {
+    width: 30%;
+    height: 30%;
+    padding: 5px 3px;
+  }
+  #right{
+      height: 25%;
+  }
+.p-h3{
+      background-color: rgb(228, 225, 225);
+      padding: 10px 10px;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding: 7% 15%;
+}
+.ctn-txt{
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    padding: 5%;
+}
+#footer{
+    padding: 2% 7.5%;
+    text-align: center;
+}
+.fab-ic{
+    margin:20px 10px;
+}
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .imgg{
+        transform: rotate(0);
+    }
+}
